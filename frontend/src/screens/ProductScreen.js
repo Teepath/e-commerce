@@ -27,6 +27,8 @@ const ProductScreen = ({ match, history }) => {
         navigate('cart')
     }
 
+    console.log(product, 'imageurl')
+
     return (
         <div className="productscreen">
 
